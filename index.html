@@ -1,0 +1,1083 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="icon" href="img/imgs/logo (1).png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Genius Mind Kundli</title>
+    <!-- <link rel="icon" href="img/favicon.png"> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="css/ok.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<script>
+    function scrollTo(hash) {
+        location.hash = "#" + hash;
+    }
+</script>
+
+   <style>
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    footer{
+        
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #111;
+        height: auto;
+        width: 100vw;
+    
+        padding-top: 40px;
+        color: #fff;
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content h3{
+        font-size: 2.1rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    .footer-content p{
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+        color: #cacdd2;
+    }
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    }
+    .socials li{
+        margin: 0 10px;
+    }
+    .socials a{
+        text-decoration: none;
+        color: #fff;
+        border: 1.1px solid white;
+        padding: 5px;
+    
+        border-radius: 50%;
+    
+    }
+    .socials a i{
+        font-size: 1.1rem;
+        width: 20px;
+    
+    
+        transition: color .4s ease;
+    
+    }
+
+    .h3{
+        color: rgb(255, 255, 255);
+    }
+
+    .socials a:hover i{
+        color: aqua;
+    }
+    
+    .footer-bottom{
+        background: #000;
+        width: 100vw;
+        padding: 20px;
+    padding-bottom: 40px;
+        text-align: center;
+    }
+    .footer-bottom p{
+    float: left;
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+    .footer-bottom p a{
+      color:#44bae8;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    .footer-bottom span{
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+    }
+    .footer-menu{
+      float: right;
+    
+    }
+    .footer-menu ul{
+      display: flex;
+    }
+    .footer-menu ul li{
+    padding-right: 10px;
+    display: block;
+    }
+    .footer-menu ul li a{
+      color: #cfd2d6;
+      text-decoration: none;
+    }
+    .footer-menu ul li a:hover{
+      color: #27bcda;
+    }
+    
+    @media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }
+         :root {
+            --first_color: #15241c;
+            --second-color: #09382f;
+            --third-color: #f8e7e0;
+            --fourth-color: #f8ece0;
+            --fifth-color:#f8e9e0;
+            --sixth-color : #f8ebe0;
+        }
+
+        .Testimonials {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 100%;
+            margin: 40px 0px;
+        }
+
+        .Testimonials_title h2 {
+            font-size: 42px;
+            letter-spacing: -2px;
+            font-weight: 700;
+            letter-spacing: 0;
+            margin-bottom: 30px;
+            text-align: center;
+            color: var(--first_color);
+        }
+
+        .Testimonials_title>p {
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            font-weight: 300;
+            text-align: center;
+
+        }
+
+
+        .testimonials_container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+
+        .testimonials_container_center {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (max-width: 767px) {
+            .testimonials_container_center {
+                display: block;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+            }
+          }
+
+        .testimonials_content {
+            position: relative;
+            transition: all .3s ease-in-out;
+            transform: scale(0.9);
+            opacity: 0.9;
+        }
+
+        .testimonials_avatar {
+            position: absolute;
+            left: 50%;
+            top: -30px;
+            width: 90px;
+            height: 90px;
+            margin-left: -45px;
+            z-index: 1;
+        }
+
+        .testimonials_avatar img {
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            border: 6px solid #fff;
+            box-shadow: 0 9px 26px rgba(58, 87, 135, 0.1);
+        }
+
+        .testimonials_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 75px 50px 75px;
+            overflow: hidden;
+            background: var(--third-color);
+            border: 1ps solid #f1f1f1;
+            border-radius: 10px;
+            transition: all .3s ease-in-out;
+        }
+
+        .testimonials_text_after {
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            position: absolute;
+            color: var(--fifth-color);
+            opacity: .3;
+            font-size: 35px;
+            transition: all 400ms linear;
+            bottom: 25px;
+            right: 30px;
+        }
+
+        .testimonials_text_before {
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            position: absolute;
+            color: var(--fifth-color);
+            opacity: .3;
+            font-size: 35px;
+            transition: all 400ms linear;
+            top: 25px;
+            left: 30px;
+        }
+
+
+        .testimonials_text p {
+            color: var(--second-color);
+            font-size: 14px;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-style: italic;
+            line-height: 24px;
+            padding-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .testimonials_information h3 {
+            font-weight: 600;
+            color: var(--second-color);
+            ;
+            font-size: 18px;
+        }
+
+        .testimonials_information h4 {
+            font-weight: 400;
+            font-size: 12px;
+            padding-top: 6px;
+            color: var(--second-color);
+            ;
+        }
+
+        .testimonials_container_center .active {
+            opacity: 1;
+            transform: scale(1.0);
+            width: 100%;
+            flex-grow: 6;
+        }
+
+        .testimonials_container_center .active .testimonials_text {
+            background: var(--fourth-color);
+            box-shadow: 0 9px 26px rgba(58, 87, 135, 0.1);
+        }
+
+        .listing-carousel-button {
+            position: relative;
+            width: 80px;
+            height: 50px;
+            z-index: 1;
+            cursor: pointer;
+            background: var(--second-color);
+            box-shadow: 0 9px 26px rgba(58, 87, 135, 0.45);
+            transition: all 200ms linear;
+            outline: none;
+        }
+
+        .listing-carousel-button.listing-carousel-button-next {
+            padding-right: 20px;
+            border-radius: 60px 0 0 60px;
+        }
+
+        .listing-carousel-button.listing-carousel-button-prev {
+            padding-left: 20px;
+            border-radius: 0 60px 60px 0;
+        }
+
+        .listing-carousel-button.listing-carousel-button-next:hover {
+            right: -15px;
+            background: rgba(6, 27, 65, 0.4);
+        }
+
+        .listing-carousel-button.listing-carousel-button-prev:hover {
+            left: -15px;
+            background: rgba(6, 27, 65, 0.4);
+        }
+    </style>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> <img src="img/imgs/logo (1).png" alt="logo" width="100" height="100"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item justify-content-end"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Aboutus">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Courses">Courses</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li> -->
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="single-blog.html">Single blog</a>
+                                        <a class="dropdown-item" href="elements.html">Elements</a>
+                                    </div> -->
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Contactus">Contact</a>
+                                </li>
+                                <!-- <li class="d-none d-lg-block">
+                                    <a class="btn_1" href="#">Get a Quote</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- banner part start-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-xl-6">
+                    <div class="banner_text">
+                        <div class="banner_text_iner">
+                            <h5>Every child yearns to learn</h5>
+                            <h1>Making Your Childs
+                                World Better</h1>
+                            <p>The greatest legacy one can pass on to one's children and grandchildren is not money or other material things accumulated in one's life, but rather a legacy of character and faith</p>
+                            <a href="#Courses" class="btn_1">View Courses </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner part start-->
+
+    <!-- feature_part start-->
+    <section class="feature_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xl-3 align-self-center">
+                    <div class="single_feature_text ">
+                        <h2>Awesome <br> Featurs</h2>
+                        <p>Choose a course that you want to learn from us, we give assure you that you will see a change </p>
+                        <a href="" class="btn_1">-></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single_feature">
+                        <div class="single_feature_part">
+                            <span class="single_feature_icon"><i class="ti-layers"></i></span>
+                            <h4>Concentration</h4>
+                            <p>Our courses play a major role in enhancing their concentration. Enhanced concentration boost self-confidence in kids life. They are a life long skill once developed it will be retained for whole life like cycling.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single_feature">
+                        <div class="single_feature_part">
+                            <span class="single_feature_icon"><i class="ti-new-window"></i></span>
+                            <h4>Memory</h4>
+                            <p>Our learning stimulates the whole brain, that’s why we call this program – Whole Brain development program. It improves memory by increasing dopamine production in the brain and it is a long term memory.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single_feature">
+                        <div class="single_feature_part single_feature_part_2">
+                            <span class="single_service_icon style_icon"><i class="ti-light-bulb"></i></span>
+                            <h4>Speed and Accuracy</h4>
+                            <p>The Skill Smarter Abacus helps your children to develop speed and accuracy in solving math problems by using simple methods.
+                                An Abacus student can most likely get the correct answer 4 to 5 times faster than a calculator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- upcoming_event part start-->
+
+    <!-- learning part start-->
+    <section class="learning_part">
+        <div class="container" id="#Aboutus">
+            <div class="row align-items-sm-center align-items-lg-stretch">
+                <div class="col-md-7 col-lg-7">
+                    <div class="learning_img">
+                        <img src="img/learning_img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-5">
+                    <div class="learning_member_text">
+                        <h5>About us</h5>
+                        <h2>Learning with Love
+                            and Laughter</h2>
+                        <p>Genius Mind Kundli started its journey in 2017. With almost 5 years of experience, the group believes that our society needs a new education system based on the concepts of integrated education. Starting from Class 1, the group has diversified further and now also offers pieces of training to cultivate and bloom the upcoming generations through various techniques. At Genius Mind Kundli, we nurture the unique methodology of teaching involving experiential learning bringing together not only the class 1  and Elementary education but also extracurricular activities for children of all age groups. we started Skill Smarter Abacus after school program in India to cater to students age 5 to 14 years in 2017.</p>
+                        <!-- <a href="#" class="btn_1">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- learning part end-->
+
+    <!-- member_counter counter start -->
+    <!-- <section class="member_counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_member_counter">
+                        <span class="counter">10</span>
+                        <h4>All Teachers</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_member_counter">
+                        <span class="counter">157</span>
+                        <h4> All Students</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_member_counter">
+                        <span class="counter">64</span>
+                        <h4>Online Students</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_member_counter">
+                        <span class="counter">93</span>
+                        <h4>Ofline Students</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- member_counter counter end -->
+
+    <!--::review_part start::-->
+    <section class="special_cource padding_top" id="#Courses">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section_tittle text-center">
+                        <h2>Special Courses</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/imgs/abacus.jpg" class="special_img" alt="" height="275">
+                        <div class="special_cource_text">
+                            <a href="#" class="btn_4">Brain Development</a>
+                            <h4>₹1000</h4>
+                            <a href="#"><h3>Abacus</h3></a>
+                            <p>The abacus, also called a counting frame, is a calculating tool which has been used since ancient times. 
+                                It was used in the ancient Near East, Europe, China, and Russia, centuries before the adoption of the Hindu-Arabic numeral 
+                                system.</p>
+                            <!-- <div class="author_info">
+                                <div class="author_img">
+                                    <img src="img/author/author_1.png" alt="">
+                                    <div class="author_info_text">
+                                        <p>Conduct by:</p>
+                                        <h5><a href="#">James Well</a></h5>
+                                    </div>
+                                </div>
+                                <div class="author_rating">
+                                    <div class="rating">
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <p>3.8 Ratings</p>
+                                </div>-->
+
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/imgs/maths.jpg" class="special_img" alt="" height="275">
+                        <div class="special_cource_text">
+                            <a href="#" class="btn_4">Skill Development</a>
+                            <h4>₹1500</h4>
+                            <a href="#"> <h3>Maths </h3></a>
+                            <p>Mathematics is an area of knowledge that includes the study of such topics as numbers, formulas and related structures, 
+                                shapes and spaces in which they are contained, and quantities and their changes. 
+                                There is no general consensus about its exact scope or epistemological status</p>
+                            <!-- <div class="author_info">
+                                <div class="author_img">
+                                    <img src="img/author/author_2.png" alt="">
+                                    <div class="author_info_text">
+                                        <p>Conduct by:</p>
+                                        <h5><a href="#">James Well</a></h5>
+                                    </div>
+                                </div>
+                                <div class="author_rating">
+                                    <div class="rating">
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <p>3.8 Ratings</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/imgs/cube.jpg" class="special_img" alt="" height="275">
+                        <div class="special_cource_text">
+                            <a href="" class="btn_4">Skill Development</a>
+                            <h4>₹1500</h4>
+                            <a href="">  <h3>Cube</h3> </a> 
+                            <p>Rubik's Cube achieves the desired state and all kinds of combinations of colors by rotating pieces. The original (3 × 3 × 3) Rubik's Cube has six faces. Initially, each face has the same color, and each face has nine small outer surfaces. They are 54 outer surfaces in total.</p>
+                            <!-- <div class="author_info">
+                                <div class="author_img">
+                                    <img src="img/author/author_3.png" alt="">
+                                    <div class="author_info_text">
+                                        <p>Conduct by:</p>
+                                        <h5><a href="#">James Well</a></h5>
+                                    </div>
+                                </div>
+                                <div class="author_rating">
+                                    <div class="rating">
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <p>3.8 Ratings</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="special_cource padding_top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/imgs/problem_sloved.png" class="special_img" alt="" height="275">
+                        <div class="special_cource_text">
+                            <a href="#" class="btn_4">Brain Development</a>
+                            <h4>₹1500</h4>
+                            <a href="#"><h3>Coding</h3></a>
+                            <p>Computer programming is the process of performing a particular computation, usually by designing/building an executable computer program. 
+                                Programming involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms.</p>
+                            <!-- <div class="author_info">
+                                <div class="author_img">
+                                    <img src="img/author/author_1.png" alt="">
+                                    <div class="author_info_text">
+                                        <p>Conduct by:</p>
+                                        <h5><a href="#">James Well</a></h5>
+                                    </div>
+                                </div>
+                                <div class="author_rating">
+                                    <div class="rating">
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <p>3.8 Ratings</p>
+                                </div>-->
+
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/imgs/robotics.jpg" class="special_img" alt="" height="275">
+                        <div class="special_cource_text">
+                            <a href="#" class="btn_4">Skill Development</a>
+                            <h4>₹1500</h4>
+                            <a href="#"> <h3>Robotics </h3></a>
+                            <p>Robotics is an interdisciplinary branch of computer science and engineering. Robotics involves design, construction, operation, and use of robots. 
+                                The goal of robotics is to design machines that can help and assist humans</p>
+                            <!-- <div class="author_info">
+                                <div class="author_img">
+                                    <img src="img/author/author_2.png" alt="">
+                                    <div class="author_info_text">
+                                        <p>Conduct by:</p>
+                                        <h5><a href="#">James Well</a></h5>
+                                    </div>
+                                </div>
+                                <div class="author_rating">
+                                    <div class="rating">
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <p>3.8 Ratings</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/imgs/handwritting.jpg" class="special_img" alt="" height="275">
+                        <div class="special_cource_text">
+                            <a href="#" class="btn_4">Skill Development</a>
+                            <h4>₹1500</h4>
+                            <a href="#">  <h3>Handwritting</h3> </a> 
+                            <p>Handwriting is the writing done with a writing instrument, such as a pen or pencil, in the hand. Handwriting includes both printing and cursive styles and is separate from formal calligraphy or typeface. Because each person's handwriting is unique and different, it can be used to verify a document's writer.</p>
+                            <!-- <div class="author_info">
+                                <div class="author_img">
+                                    <img src="img/author/author_3.png" alt="">
+                                    <div class="author_info_text">
+                                        <p>Conduct by:</p>
+                                        <h5><a href="#">James Well</a></h5>
+                                    </div>
+                                </div>
+                                <div class="author_rating">
+                                    <div class="rating">
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <p>3.8 Ratings</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::blog_part end::-->
+
+    <!-- learning part start-->
+    <section class="advance_feature learning_part">
+        <div class="container">
+            <div class="row align-items-sm-center align-items-xl-stretch">
+                <div class="col-md-6 col-lg-6">
+                    <div class="learning_member_text">
+                        <h5>Advance features</h5>
+                        <h2>Our Advance Educator
+                            Learning System</h2>
+                        <p>We have our own app that is available on play store, we have our own softwares for online classes, we have a projectors in our offline classes, we have 10+ computers available in offline classes </p>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <div class="learning_member_text_iner">
+                                    <!-- <span class="ti-pencil-alt"></span> -->
+                                    <!-- <h4>Learn Anywhere</h4>
+                                    <p>There earth face earth behold she star so made void two given and also our</p> -->
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <div class="learning_member_text_iner">
+                                    <!-- <span class="ti-stamp"></span> -->
+                                    <!-- <h4>Expert Teacher</h4>
+                                    <p>There earth face earth behold she star so made void two given and also our</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="learning_img">
+                        <img src="img/advance_feature_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- learning part end-->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--::review_part start::-->
+    <section id="Testimonials">
+        <div class="Testimonials_top">
+            <div class="Testimonials_title">
+                <h2>Testimonials</h2>
+                <!-- <p>Reviews of our clients</p> -->
+            </div>
+        </div>
+        <div class="Testimonials_bottom">
+            <div class="testimonials_container">
+                <div class="testimonials_container_left">
+                    <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left"
+                            style="color: #fff"></i></div>
+                </div>
+
+                <div class="testimonials_container_center">
+                    <div class="testimonials_content">
+                        <div class="testimonials_avatar">
+                            <img src="img/team/team_1.png" alt="">
+                        </div>
+
+                        <div class="testimonials_text_before"><i class="fa fa-quote-right"></i></div>
+
+                        <div class="testimonials_text">
+                            <p>It was really a pleasure joining Genius Mind Kundli I saw a change in my child. Before joining he was not able to do a single sum mentally but now his performance is touching cloud 9
+                            </p>
+                            <div class="testimonials_information">
+                                <h3>Jcob Marshal</h3>
+                                <h4>Sports Man</h4>
+                            </div>
+                        </div>
+                        <div class="testimonials_text_after"><i class="fa fa-quote-left"></i></div>
+                    </div>
+
+                    <div class="testimonials_content active">
+                        <div class="testimonials_avatar">
+                            <img src="img/team/team_2.png" alt="">
+                        </div>
+
+                        <div class="testimonials_text_before"><i class="fa fa-quote-right"></i></div>
+
+                        <div class="testimonials_text">
+                            <p> I seen a vast change in my child after joining Genius Mind Kundli. It is a great experience....... Teachers takes pain in the upbringing of the Child
+                            </p>
+                            <div class="testimonials_information">
+                                <h3>Stefan Mikleson</h3>
+                                <h4>Doctor</h4>
+                            </div>
+                        </div>
+                        <div class="testimonials_text_after"><i class="fa fa-quote-left"></i></div>
+                    </div>
+
+                    <div class="testimonials_content">
+                        <div class="testimonials_avatar">
+                            <img src="https://i0.wp.com/neurabites.com/wp-content/uploads/2020/02/thispersondoesnotexist10.png?resize=500%2C505&ssl=1" alt="">
+                        </div>
+
+                        <div class="testimonials_text_before"><i class="fa fa-quote-right"></i></div>
+
+                        <div class="testimonials_text">
+                            <p>I am a big fan of the teachers at Genius Mind Kundli. The way of their teaching is awesome. I saw a change in my child. Before joining she was failed in Math twice but now she got first position in olympiad  
+                            </p>
+
+                            <div class="testimonials_information">
+                                <h3>Sergio Marquina</h3>
+                                <h4>C.A</h4>
+                            </div>
+                        </div>
+                        <div class="testimonials_text_after"><i class="fa fa-quote-left"></i></div>
+                    </div>
+                </div>
+
+                <div class="testimonials_container_right">
+                    <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right"
+                            style="color: #fff"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::blog_part end::-->
+
+    <!--::blog_part start::-->
+    <!-- <section class="blog_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section_tittle text-center">
+                        <p>Our Blog</p>
+                        <h2>Students Blog</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <img src="img/blog/blog_1.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+                                <a href="#" class="btn_4">Design</a>
+                                <a href="blog.html">
+                                    <h5 class="card-title">Dry beginning sea over tree</h5>
+                                </a>
+                                <p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+                                <ul>
+                                    <li> <span class="ti-comments"></span>2 Comments</li>
+                                    <li> <span class="ti-heart"></span>2k Like</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <img src="img/blog/blog_2.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+                                <a href="#" class="btn_4">Developing</a>
+                                <a href="blog.html">
+                                    <h5 class="card-title">All beginning air two likeness</h5>
+                                </a>
+                                <p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+                                <ul>
+                                    <li> <span class="ti-comments"></span>2 Comments</li>
+                                    <li> <span class="ti-heart"></span>2k Like</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <img src="img/blog/blog_3.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+                                <a href="#" class="btn_4">Design</a>
+                                <a href="blog.html">
+                                    <h5 class="card-title">Form day seasons sea hand</h5>
+                                </a>
+                                <p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+                                <ul>
+                                    <li> <span class="ti-comments"></span>2 Comments</li>
+                                    <li> <span class="ti-heart"></span>2k Like</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--::blog_part end::-->
+
+    <!-- footer part start-->
+    <!-- <footer class="footer-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="single-footer-widget footer_1">
+                        <a href="index.html"> <img src="img/" alt=""> </a>
+                        <p>Genius Mind Kundli is an educational institue that is placed in Sonepat, Haryana, India. </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Newsletter</h4>
+                        <p>Stay updated with our latest trends Seed heaven so said place winged over given forth fruit.
+                        </p>
+                        <form action="#">
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder='Enter email address'
+                                        onfocus="this.placeholder = ''"
+                                        onblur="this.placeholder = 'Enter email address'">
+                                    <div class="input-group-append">
+                                        <button class="btn btn_1" type="button"><i class="ti-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Contact us</h4>
+                        <div class="contact_info">
+                            <p><span> Address :</span> Hath of it fly signs bear be one blessed after </p>
+                            <p><span> Phone :</span> +2 36 265 (8060)</p>
+                            <p><span> Email : </span>info@colorlib.com </p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container" id="#Contactus">
+            <div class="content">
+              <div class="left-side">
+                <div class="address details">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="topic">Address</div>
+                  <div class="text-one">Surkhet, NP12</div>
+                  <div class="text-two">Birendranagar 06</div>
+                </div>
+                <div class="phone details">
+                  <i class="fas fa-phone-alt"></i>
+                  <div class="topic">Phone</div>
+                  <div class="text-one">+0098 9893 5647</div>
+                  <div class="text-two">+0096 3434 5678</div>
+                </div>
+                <div class="email details">
+                  <i class="fas fa-envelope"></i>
+                  <div class="topic">Email</div>
+                  <div class="text-one">codinglab@gmail.com</div>
+                  <div class="text-two">info.codinglab@gmail.com</div>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="topic-text">Send us a message</div>
+                <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+              <form action="mailto:karmansingharora01@gmail.com">
+                <div class="input-box">
+                  <input type="text" name="text" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                  <input type="text" name="email" placeholder="Enter your email">
+                </div>
+                <div class="input-box">
+                    <input type="text" name="phonenumber" placeholder="Enter your phone number here">
+                  </div>
+                <div class="input-box message-box">
+                  <textarea name="textarea" id="area" cols="30" rows="10" placeholder="Write you query here"></textarea>
+                </div>
+                <div class="button-2">
+                  <input type="button" value="Send Now" >
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+        <footer>
+        <div class="footer-content">
+            <h3 class="h3">Genius Mind Kundli</h3>
+            <p>This webiste is developed by Genius Mind Kundli.All the content in this website is reseved by Genius Mind Kundli.</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/profile.php?id=100077022371349"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="mailto:skillsmarterharyana@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCLZpiskN7Zm6yBI322cHWCg/videos"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- footer part end-->
+
+    <!-- jquery plugins here-->
+    <!-- jquery -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/masonry.pkgd.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
